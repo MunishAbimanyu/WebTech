@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=FontName');
+body {
+    background-image: url(./Login.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 69.3vh;
+    background-position: center;
+    margin: 0;
+}
+
+header {
+    border: none;
+    margin-left: 100px;
+    margin-top: 200px;
+    font-family: 'Abril Fatface', serif;
+}
+
+button {
+    margin-left: 85px;
+    color: black;
+    background-color: wheat;
+    border-radius: 15px;
+    font-family: 'FontName', sans-serif;
+}
+
+.input-continer {
+    position: relative;
+}
+
+#eyes {
+    margin-left: -23px;
+    margin-top: 2px;
+    color: wheat;
+    position: relative;
+}
+
+#icon1,
+#icon2 {
+    position: absolute;
+    margin-left: 7px;
+    color: wheat;
+}
+
+.user,
+.pass {
+    width: 250px;
+    background-color: transparent;
+    color: wheat;
+    border: none;
+    border-bottom: 2px solid wheat;
+    padding-left: 30px;
+    margin-top: -1;
+}
+
+.account,
+.forgot {
+    margin-left: 72px;
+    color: wheat;
+}
